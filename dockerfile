@@ -1,5 +1,18 @@
+# Base image
 FROM node:latest
-COPY . .
+
+# Set working directory inside container
+WORKDIR /app
+
+# Copy package.json and install dependencies first (Docker layer optimization)
+COPY package*.json ./
 RUN npm install
+
+# Copy remaining code
+COPY . .
+
+# Expose the port (no typo)
 EXPOSE 3000
-CMD [ "node", "index.js" ]
+
+# Run the app
+CMD ["node", "index.js"]
