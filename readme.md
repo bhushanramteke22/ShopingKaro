@@ -70,5 +70,11 @@ If you'd like to contribute to ShopingKaro, please follow these guidelines:
 ## License
 
 This project is licensed under the MIT License. Feel free to use, modify, and distribute it as per the license terms.
-Appliation is running fine
+
+#Appliation is running fine with docker
+
 <img width="2518" height="687" alt="image" src="https://github.com/user-attachments/assets/7e13380b-7b9d-491d-addd-16a910f1fa5a" />
+
+<img width="2410" height="782" alt="image" src="https://github.com/user-attachments/assets/5524c1fd-07fe-4470-b4f1-93ae5d9d4ffb" />
+
+<img width="2427" height="541" alt="image" src="https://github.com/user-attachments/assets/c323faf8-e89d-4f01-8a82-ed82c4a8bf8b" />
