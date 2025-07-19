@@ -9,6 +9,8 @@ const path = require("path");
 const User = require("./models/user");
 const mongoose = require("mongoose");
 const mongo_DB_URI = process.env.MONGO_DB_URI;
+console.log("MongoDB URI:", mongo_DB_URI);
+
 
 const app = express();
 const PORT = 3000;
